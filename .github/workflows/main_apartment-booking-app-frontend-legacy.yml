@@ -33,6 +33,7 @@ jobs:
         run: npm run build
         env:
           NODE_OPTIONS: --openssl-legacy-provider
+          CI: false
           # Ha kell env a Reacthez, tedd GitHub Secrets-be és vedd le a kommentet:
           REACT_APP_API_BASE_URL: ${{ secrets.REACT_APP_API_BASE_URL }}
 
