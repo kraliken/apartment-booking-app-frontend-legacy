@@ -16,7 +16,7 @@ const Landing = ({ setPathname }) => {
   return (
     <>
       <Container className="landing-container">
-        <div className=" position-absolute bg-image" style={{ backgroundImage: `url(http://localhost:5000/images/apartman.jpg)` }}></div>
+        <div className=" position-absolute bg-image" style={{ backgroundImage: `url(https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman.jpg)` }}></div>
         <Row>
           <Col className="landing-content">
             <h1 className="landing-title text-uppercase mt-4">panoráma<br /> apartman</h1>
