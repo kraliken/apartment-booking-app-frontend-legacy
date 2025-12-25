@@ -5,7 +5,7 @@ const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 const createApi = () => {
 
   const client = axios.create({
-    baseURL: `${API_BASE_URL}/api/reservations`
+    baseURL: `https://apartment-booking-app-backend-legacy.azurewebsites.net/api/reservations`
   })
 
   // loginkor meghívni, átadni neki a jwt-t

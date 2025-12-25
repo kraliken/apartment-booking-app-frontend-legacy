@@ -24,56 +24,56 @@ const About = ({ setPathname }) => {
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="http://localhost:5000/images/apartman_01.jpg"
+                src="https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman_01.jpg"
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="http://localhost:5000/images/apartman_02.jpg"
+                src="https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman_02.jpg"
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="http://localhost:5000/images/apartman_03.jpg"
+                src="https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman_03.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="http://localhost:5000/images/apartman_05.jpg"
+                src="https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman_05.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="http://localhost:5000/images/apartman_06.jpg"
+                src="https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman_06.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="http://localhost:5000/images/apartman_07.jpg"
+                src="https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman_07.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="http://localhost:5000/images/apartman_08.jpg"
+                src="https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman_08.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 rounded"
-                src="http://localhost:5000/images/apartman_09.jpg"
+                src="https://apartment-booking-app-backend-legacy.azurewebsites.net/images/apartman_09.jpg"
                 alt="Third slide"
               />
             </Carousel.Item>
