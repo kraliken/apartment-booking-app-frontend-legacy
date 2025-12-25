@@ -1,0 +1,148 @@
+.custom-red{
+  background-color: #ff8395!important;
+  color: #fff;
+}
+
+.custom-orange{
+  background-color: #f5b880!important;
+  color: #fff;
+}
+
+.custom-green{
+  background-color: #bde6cb!important;
+  color: #777;
+}
+
+.selected{
+  background-color: #75a68d!important;
+  color: #fff;
+}
+
+.badge{
+  min-width: 35%;
+  letter-spacing: 1px;
+  border-radius: 0;
+  // margin-left: 19.75%;  
+  padding: .4rem 0
+}
+
+// .title {
+//   margin-left: 20.75%;  
+// }
+
+label{
+  font-size: 14px;
+}
+
+.form-check-input{
+  margin-right: .5rem;
+  border-radius: 0!important;
+}
+
+.form-control{
+  border-radius: 0!important;
+}
+
+input[name=phone]::placeholder{
+  color: #bebebe;
+}
+
+.inactive {
+  opacity: 0.3;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.cursor > * {
+  pointer-events: none;
+}
+
+.policy {
+  font-size: .85rem;
+}
+
+.admin-calendar-text {
+  font-size: .85rem;
+}
+
+.stepper-button {
+  outline: none;
+  background-color: #f5b880;
+
+    &:disabled{
+      outline: none;
+      background-color: #f5b880!important;
+      opacity: .6;
+    }
+
+    &:active{
+      outline: none;
+      background-color: #dc9a5d!important;
+    }
+
+    &:focus{
+      outline: none;
+      background-color: #dc9a5d!important;
+    }
+    &:hover{
+      outline: none;
+      background-color: #dc9a5d!important;
+    }
+}
+
+.stepper-button-submit {
+  outline: none;
+  background-color: #75a68d;
+
+    &:active{
+      outline: none;
+      background-color: #75a68d!important;
+    }
+
+    &:focus{
+      outline: none;
+      background-color: #75a68d!important;
+    }
+    &:hover{
+      outline: none;
+      background-color: #598870!important;
+    }
+  }
+  
+.stepper-success-button {
+    text-decoration: none;
+    outline: none;
+    background-color: #75a68d;
+    color: #fff;
+    padding: 6px 12px;
+    transition: background-color .2s ease-in-out;
+    
+    &:hover {
+      color: #fff;
+      background-color: #598870!important;
+  }
+}
+// .stepper-button-submit {
+//   outline: none;
+//   background-color: #75a68d;
+// }
+
+// .stepper-button:disabled {
+//   outline: none;
+//   background-color: #f5b880!important;
+//   opacity: .5;
+// }
+// .stepper-button:active {
+//   outline: none;
+//   background-color: #dc9a5d!important;
+// }
+// .stepper-button:focus {
+//   outline: none;
+//   background-color: #dc9a5d!important;
+// }
+// .stepper-button:hover {
+//   outline: none;
+//   background-color: #dc9a5d!important;
+// }

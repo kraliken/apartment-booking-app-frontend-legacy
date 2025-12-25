@@ -1,0 +1,20 @@
+.modal-dialog {
+  max-width: 500px;
+  margin: 6.75rem auto;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.fst-italic {
+
+  font-size: .85rem;
+
+  span {
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
