@@ -65,9 +65,8 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_2A6CE4D10A8540E08CD23732914E69F2 }}
 
       - name: Deploy to Azure Web App
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: "apartment-booking-app-frontend-legacy"
           slot-name: "Production"
-          package: build
+          package: .
